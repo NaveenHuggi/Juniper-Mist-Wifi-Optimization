@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Sensitive / generated data — DO NOT COMMIT
+*.csv
+logs_*.json
+client_dataset*.csv
+
+# Pre-trained model binaries — train locally, do not commit
+*.pkl
+wifi_model.pkl
+
+# Secrets — never commit tokens or credentials
+.env
+*.env
+secrets.py
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
